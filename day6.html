@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+        <center><h1>Student Registration Form</h1></center>
+        <center><p>Fill the form to register</p></center>
+        <br/>
+      <form action="succesfull.html">
+                <fieldset>
+                <legend>Personal Details</legend>
+                <label for="First Name">First Name</label>
+            <input type="text" placeholder="first name" id="fname" name="fname" pattern="[a-zA-Z]{0,20}"/><br />
+            <br />
+            <label for="Last Name">Last Name</label>
+            <input type="Last Name" placeholder="last name" id="lname" name="lname" pattern="[a-zA-Z]{0,20}"/><br/>
+            <br />
+            <label for="email">Email Address</label>
+            <input type="email" placeholder="email" id="email" name="email" pattern="[a-zA-Z0-9@.]{1,30}"/><br />
+            <br/>
+            <label for="mobile number">Mobile Number</label>
+            <input type="number" placeholder="Mobile number" id="number" name="number" patern="[0-9]{10}"/><br />
+            <br/>
+            <label for="datemax">Date of Birth</label>
+            <input type="date" placeholder="date of birth"  id="date" name="date" max="2006-01-01" pattern="[0-9]"/><br/>
+            <br/>
+            <label for="age">Age</label>
+            <input type="number" placeholder="age" id="age" name="age" min="18" max="25" pattern="[0-9]{1,100}"/><br/>
+            <br/>
+            <label for="gender">Gender</label><br />
+            <input type="radio" id="male" name="gender" value="Male"/>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female"name="gender" value="Female"/>
+            <label for="female">Female</label><br>
+            <br />
+
+            </fieldset>
+            <fieldset>
+                <legend>Address</legend>
+                <input type="text" placeholder="street Address" id="address" name="address" pattern="[a-zA-Z0-9]{5,100}"/><br />
+                <br/>
+                <input type="text" placeholder="city"  name="city" pattern="[a-zA-Z]{1,50}"/><br />
+                <br/>
+                <input type="text" placeholder="state" id="state" name="state" pattern="[a-zA-Z]{1,100}"/><br>
+                <br/>
+                <input type="number" placeholder="zip code" id="code" name="code" pattern="[0-9]{6}"/><br />
+                <br/>
+                <input list="country" name="country"/>
+                <datalist id="country">
+                    <option value="India">India</option>
+                    <option value="Canada">Canada</option>
+                    <option value="USA">USA</option>
+                    <option value="Australia">Australia</option>
+                    <option value="China">China</option>
+                    <option value="London">London</option>
+                    <option value="Dubai">Dubai</option>
+                </datalist>
+            </fieldset>
+            <fieldset>
+                <legend>Education Details</legend>
+                <label for="qualification">Qualification</label>
+                <select name="qualification" id="qualification">
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="Degree">Degree</option>
+                </select><br/>
+                <br />
+                <label for="Department">Department</label>
+                <select name="department" id="department">
+                    <option value="CSE">CSE</option>
+                    <option value="IT">IT</option>
+                    <option value="ECE">ECE</option>
+                    <option value="EEE">EEE</option>
+                </select><br/>
+                
+                <br>
+                <label for="skills">Skills</label>
+                <select name="skills" id="skills">
+                    <option value="C/C++">C/C++</option>
+                    <option value="java">Java</option>
+                    <option value="phython">phython</option>
+                    <optgroup label="frontend">
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="Javascript">Javascript</option>
+                    </optgroup>
+
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Comment</legend>
+                <textarea name="comment" row="20" col="30"></textarea>
+            </fieldset>
+            <br/>
+            <input type="submit" value="submit"/>
+        </form>
+    </body>
+</html>  
+           
