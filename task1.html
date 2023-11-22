@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+        <title>Document</title>
+    </head>
+    <body>
+        <center><h1>Bank Registration Form</h1></center>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <form action="../succesfull.html">
+                <label for="first name"><b>First Name</b></label>
+                <input type="text" placeholder="Firstname" id="fname" name="fname" minlength="5" pattern="[a-zA-Z]{0,20}"/><br/>
+                <br />
+                <label for="last name"><b>Last Name</b></label>
+                <label for="last name"></label>
+                <input type="text" placeholder="lastname" id="lname" name="lname" minlength="5" pattern="[a-zA-Z]{0,20}"/><br />
+                <br/>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="email" id="email" name="email" pattern="[a-zA-Z0-9@.]{1,30}"/><br />
+                <br/>
+                <label for="Mobile Number"><b>Mobile Number</b></label>
+                <input type="number" placeholder="mobile number" id="mobile number" name="mobile number" pattern="[0-9]{10}"/><br/>
+                <br />
+                <label for="date of birth"><b>Date of Birth</b></label>
+                <input type="date" id="dateof birth" name="dateofbirth"  min="2000" max="2005" /><br/>
+                <br/>
+                <input type="text" placeholder="street address" id="address" name="address" minlength="3" pattern="[a-zA-Z0-9/\]\[]{0,20}"/><br />
+                <br>
+                <input type="text" placeholder="city" id="city" name="city" minlength="5" pattern="[a-zA_Z]{0,10}"/><br />
+                <br/>
+                <input list="state" placeholder="state" />
+                <datalist id="state">
+                    <option value="Telangana">Telangana</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Maharastra">Maharastra</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Karnataka">Karnataka</option>
+                </datalist><br />
+                <br />
+ 
+                <label for="citizenship"><b>Citizen</b></label><br />
+                <input type="radio" id="US Citizen" name="citizen" />
+                <label for="us citizen">US Citizen</label><br />
+                <input type="radio" id="Indian Citizen" name="citizen"/>
+                <label for="Indian Citizen">Indian Citizen</label><br />
+                <input type="radio" id="Others" name="citizen"/>
+                <label for="Others">Others</label><br />
+                <br/>
+                <label for="joint account">Do you want joint account</label><br>
+                <input type="radio" id="yes" name="account"/>
+                <label for="yes">Yes</label><br />
+                <input type="radio" id="No" name="account"/>
+                <label for="no">No</label><br />
+                <br>
+
+                 <input type="submit" value="submit"/> 
+            </form>
+        </fieldset>
+        
+    </body>
+</html>
