@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/day1.css"/>
+</head>
+<body>
+    <h1>CSS Selectors</h1>
+    <div>
+        <h3>Element Selector:</h3>
+    <p>The element selector selects HTML elements based on the element name.</p>
+    <b>Example:</b>
+    <pre>
+        <code>
+            p{
+                color:red;
+            }
+        </code>
+    </pre>
+    <h3>id Selector:</h3>
+    <p>The id selector uses the id attribute of an HTML element to select a specific element.<br/>
+        To select an element with a specific id, write a hash (#) character, followed by the id of the element.</p>
+        <b>Example:</b>
+        <pre>
+            <code>
+                #id name{ <br>
+                    color:green;
+                }
+            </code>
+        </pre>
+        <h3>Class selector:</h3>
+        <p>The class selector selects HTML elements with a specific class attribute.<br/>
+            To select elements with a specific class, write a period (.) character, followed by the class name.</p>
+            <b>Example:</b>
+            <pre>
+                    <code>
+                .classname{ <br>
+                        color:blue;
+                          }
+                    </code>       
+            </pre>
+    <h3>Universal Selector:</h3>
+    <p>The universal selector (*) selects all HTML elements on the page.</p>
+    <b>Example:</b>
+         <pre>
+            <code>
+                *{
+                    color: blue;<br>
+                    text-align:center;
+                }
+                  </code>
+         </pre>
+    <h3>
+        Group Selector:
+    </h3>
+    <p>The grouping selector selects all the HTML elements with the same style definitions.</p>
+    <b>Example:</b>
+    <pre>
+              <code>
+            h1,h2,h3{ <br>
+                color:blue
+            }
+            </code>
+    </pre>
+    <h3>Descendant Selector:</h3>
+    <p>The descendant selector matches all elements that are descendants of a specified element.</p>
+    <b>Example:</b>
+    <pre>
+        <code>
+            div p{<br>
+                color:red;
+            }
+        </code>
+    </pre>
+    <h3>Child Selector:</h3>
+    <p>The child selector selects all elements that are the children of a specified element.</p>
+    <b>Example:</b>
+    <pre>
+        <code>
+            div>p{<br>
+                color:green;
+            }
+        </code>
+    </pre>
+    </div>
+</body>
+</html>
