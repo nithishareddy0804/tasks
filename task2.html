@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../day12/task.css">
+</head>
+<body>
+    <h1>Combinator Selector and Attribute Selector</h1>
+    <h2>Combinator Selector:</h2>
+    <p>These selector used to specify the relation between two selectors.<br>
+        There are four types of combinator selectors.
+    </p>
+    <ul>
+        <li><b>Descendant Selector:</b><br>
+            The descendant selector matches all elements that are descendants of a specified element.<br>
+            <br>
+            <div>Example:</div><br>
+            <pre>
+                div p{
+                    color:blue;
+                }
+            </pre>
+        </li>
+        <li><b>Child Selector:</b><br>
+            The child selector selects all elements that are the children of a specified element.<br>
+        <br>
+    <div>Example:</div><br>
+            <pre>
+                div>p{
+                    color:blue;
+                }
+              </pre></li>
+              <li><b>Adjacent Sibling Selector:</b> <br>
+                This selector used to select an element that is directly after a specific element.<br>
+                <div>Example:</div><br>
+                <pre> 
+                    div+p{
+                        background-color:green;
+                    }
+                </pre>
+            
+            </li>
+            <li><b>General Sibling Selector:</b><br>
+            This selector selects all the elements that are siblings of a specified element<br>
+            <div>Example:</div><br>
+            <pre>
+                h1~p{
+                    ------;
+                }
+            </pre>
+            </li>
+        
+    </ul>
+    <br/>
+    <h2>Attribute Selector:</h2>
+    <p>These selector is used to select elements with a specified attribute.<br>
+        <div>Example:</div><br>
+        <pre>
+            p[id]{
+                background-color:green;
+            }
+        </pre>
+    </p>
+    <h3>CSS[attribute="value"]Selector:</h3>
+    <p>These selector is used to select elements with a specified attribute and value.<br>
+        <div>Example:</div><br>
+    <pre>
+       p[id="idname"]{
+        color:blue;
+       }
+    </pre>
+    </p>
+    <h3>CSS[attribute~="value"]Selector:</h3>
+    <p>These Selector is used to select elements with an attribute value containing specific word.<br>
+        <div>Example:</div><br>
+<pre>
+    p[id~="para"]{
+        color:blue;
+    }
+</pre></p>
+<h3>CSS[attribute|="value"]Selector:</h3>
+<p>These selector is used to select elements with a specified attribute,whose value can be exactly specified value or  specfied value followed by hyphen(-).<br>
+    <div>Example:</div><br>
+<pre>
+    p[id|="para"]{
+        background-color=green;
+    }
+</pre></p>
+<h3>CSS[attribute$="value"]Selector:</h3>
+<p>These selector used to select elements whose attributes value ends with a specified value.<br>
+    <div>Example:</div><br>
+<pre>
+    p[id$="para"]{
+        text-align:center;
+    }
+</pre></p>
+<h3>CSS[attribute*="value"]Selector:</h3>
+<p>These selector used to select elements whose attribute value contains a specified value.<br>
+    <div>Example:</div><br>
+<pre>
+    p[id*="first"]{
+        color:blue;
+    }
+</pre></p>
+
+    
+</body>
+</html>
