@@ -1,0 +1,14 @@
+body{
+    columns: 2;
+    background-image: url(../assets/download.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div img{
+      border-radius: 50%;
+      text-align: center;
+}
+h3{
+    background-color: aqua;
+}
