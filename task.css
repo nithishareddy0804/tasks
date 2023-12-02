@@ -1,0 +1,197 @@
+body{
+    background-color: whitesmoke;
+}
+nav{
+    background-image: url(../assets/facebook1.jpg);
+    height: 500px;
+    width: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: beige;
+    top:100px;
+    left:50px;
+}
+#A{
+ position: absolute;
+ top: 390px;
+ left:30px;
+border-radius: 20%;
+}
+#B{
+ color: white;
+ position: absolute;
+ font-size:x-large;
+ top:400px ;
+ left:200px;
+
+}
+#C{
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:large;
+  position: absolute;
+  top: 420px;
+  left:200px;
+
+}
+a{
+ 
+ position:relative;
+ left: 740px;
+ top: 435px;
+ text-decoration: none;
+ color:black;
+ border: 1px solid;
+ background-color: white;
+}
+div>.link{
+   
+    position:relative;
+    top: 480px;
+    left:400px;
+    border: 1px solid;
+    padding: 5px;
+}
+select{
+    position: relative;
+    top: 480px;
+    left:400px;
+    border: 1px solid; 
+    padding: 5px;
+}
+aside{
+    position: relative;
+    display:inline-block;
+    height:550px;
+    width: 350px;
+    margin: 5px;
+    border: 0.2 solid;
+z-index: 1;
+background-color: white;
+}
+#D{
+    
+    position: relative;
+    display: inline-block;
+    border:1px solid;
+    padding: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:center;
+}
+#names{
+     
+     position: relative;
+     color: blue;
+
+}
+.like{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:small;
+}
+.image{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left:15px;
+
+}
+aside #id1{
+    border: 1px solid;
+    padding: 10px 10px 15px;
+    position:absolute;
+    top:100px;
+    left:230px;
+}
+#E{
+  
+    position:relative;
+    left:10px;
+    top:20px;
+    display:block;
+    border: 0.2 solid;
+    padding:5px 50px;
+}
+.image{
+height: 50px;
+width: 50px;
+position: relative;
+
+
+}
+.name{
+    position:relative;
+    font-size: 15px;
+    color: black;
+    top:-15px;
+    left:30px;
+}
+.button{
+    position:relative;
+    left:100px;
+    top:-16px;
+
+}
+#friends{
+    text-decoration: none;
+    position: relative;
+    color: blue;
+    border: 0;
+    top:30px;
+    left:50px;
+}
+#I{
+    display:block;
+    border: 0.2 solid;
+    position: absolute;
+    left:400px;
+    top:580px;
+    margin: 5px;
+}
+input{
+    position:relative;
+    padding: 30px 200px;
+
+}
+.section{
+    height: 50px;
+    width:50px;
+    position: absolute;
+    top:10px;
+    left:50px;
+}
+#G{
+    position:absolute;
+    top:675px;
+    left:400px;
+    border: solid 0.2;
+    background-color: white;
+    display:block;
+    height:400px;
+    width:575px;
+}
+.img1{
+height: 50px;
+width: 50px;
+position: absolute;
+top:20px;
+left:20px;
+}
+.img2{
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    top: 130px;
+    left:80px;
+}
+#G div{
+    position: absolute;
+    top:40px;
+    left:90px;
+    color: blue;
+    font-weight: bold;
+}
+div>b{
+    color: black;
+    font-weight: lighter;
+}
