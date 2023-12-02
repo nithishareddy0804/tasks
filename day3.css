@@ -1,0 +1,39 @@
+body{
+    background-image:url(../assets/pro.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+p{
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: x-large;
+}
+h4{
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: small;
+}
+.first{
+    height: 20px;
+    width: 20px;
+
+}
+div{
+    float: left;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    margin-top: 200px; 
+    margin-right: 200px;
+}
+#image{
+    border-radius: 50%;
+    float: right;
+    border-top: 200px;
+    border-left: 200px;
+}
