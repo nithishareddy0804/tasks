@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../day15/task2.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <label for="firstname"><b>Firstname:</b></label>&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="fname" id="fname" pattern="[a-zA-Z]{5,20}" required><br>
+    <br/>
+    <label for="lastname"><b>Lastname:</b></label>&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="lname" id="lname" pattern="[a-zA-Z]{0,20}"><br>
+    <br/>
+    <label for="mobile"><b>MobileNo:</b></label>&nbsp;&nbsp;&nbsp;
+    <input type="number" placeholder="phonenumber" id="number" maxlength="10" pattern="[0-9]{10}"><br>
+    <br/>
+    <label for="email"><b>EmailAddress:</b></label>
+    <input type="email" placeholder="email" id="email" pattern="[0-9a-zA-Z@.]{0,20}" required><br>
+    <br/>
+    <label for="dateofbirth"><b>Date Of Birth:</b></label>&nbsp;&nbsp;&nbsp;
+    <input type="date" id="date" required><br/>
+    <br/>
+    <label for="Gender"><b>Gender:</b></label><br>
+    <br/>
+    <input type="radio" id="Male" name="gender">
+    <label for="male">Male</label>
+    <input type="radio" id="Female" name="gender">
+    <label for="female">Female</label><br>
+    <br/>
+    <label for="address"><b>Address:</b></label><br>
+    <br/>
+    <input type="text" placeholder="H.no,street name" required><br>
+    <br/>
+    <input type="text" placeholder="city" id="city"><br>
+    <br/>
+    <input type="text" placeholder="state" id="state"><br>
+    <br/>
+    <input id="button" type="submit" value="submit">
+    
+</fieldset>
+
+
+</body>
+</html>
+    </fieldset>
