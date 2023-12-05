@@ -1,0 +1,55 @@
+h1{
+    color: darkslategray;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+h1::first-letter{
+    font-size: larger;
+    font-weight: 300;
+}
+h1:hover{
+    color: chocolate;
+}
+legend::first-line{
+    color:green;
+}
+legend::first-letter{
+    font-size:x-large;
+    font-weight: 300;
+}
+input:required{
+    background-color: lightblue;
+}
+input:invalid{
+    border: 1px solid;
+    color: red;
+}
+:root{
+    background-color: whitesmoke;
+}
+input:focus{
+    color: blue;
+}
+input:read-only{
+    background-color: aquamarine;
+}
+#button{
+    background-color:black;
+    color: white;
+}
+#button:hover{
+    background-color: coral;
+}
+::selection{
+    background-color: coral;
+}
+input[type="radio"]{
+ background-color: blue;
+}
+input[type=radio]:active + label {
+    color:blue;
+    }
+    input[type=radio]:checked + label{
+        color:blue;
+        }
