@@ -1,0 +1,110 @@
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+div{
+    
+}
+input{
+    border: 1px solid;
+    padding: 10px 60px;
+}
+select{
+    border: 1px solid;
+    padding:10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+a:hover{
+    color: cyan;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#two{
+border: 1px solid hidden;
+padding: 10px 3px;
+background-color:darkslategray;
+position: relative;
+top:-20px
+}
+aside{
+    border: 1px solid;
+    border-left: hidden;
+    border-top: hidden;
+    border-bottom: hidden;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+aside a{
+    color: black;
+}
+#four{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:200px;
+    left:300px;
+}
+#three{
+    border: 1px solid ;
+    padding:0px 0px 0px 200px;
+}
+#five{
+    margin:0px;
+    background-color: aquamarine;
+    position: relative;
+    width: 1000px;
+    height:400px;
+    top:-650px;
+    left:300px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#top{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    top:20px;
+
+
+}
+#bottom{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+}
+#five a{
+    color:black;
+
+}
+#D{
+    position: relative;
+}
+li{
+    list-style-type: circle;
+}
+li:hover{
+    color: darkslategray;
+}
+#six{
+    width:1000px;
+    height:300px;
+    position: relative;
+    top:-640px;
+    left:300px;
+}
+#left{
+    display: flex;
+    justify-content: space-around;
+}
