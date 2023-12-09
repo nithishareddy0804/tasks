@@ -1,0 +1,49 @@
+div{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns:80px 80px;
+    row-gap: 10px;
+  
+    position: relative;
+    top:230px;
+    left:560px;
+    width:100%;
+}
+span{
+    border:1px solid;
+    height:70px;
+    width: 70px;
+    display: grid;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+}
+.right1{
+     background-color:rgba(210, 38, 38, 0.927);
+     text-shadow: 0cap;
+}
+.right2{
+    background-color: rgb(46, 152, 53);
+}
+.left1{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: rgb(27, 80, 140);
+}
+.left2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: rgb(198, 157, 22)
+}
+h1{
+    color: white;
+    position: relative;
+    left:350px;
+    top:150px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+body{
+    background-image: url(../assets/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
