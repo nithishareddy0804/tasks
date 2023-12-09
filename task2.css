@@ -1,0 +1,72 @@
+body{
+    background-image: url(../assets/field.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur;
+}
+h1{
+    color: red;
+    text-align: center;
+    word-spacing: 10px;
+}
+h3,table,b{
+    color: brown;
+}
+div{
+    font-size:xx-large;
+    background-color: aqua;
+    display: inline;
+    position: relative;
+    animation-name: move;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes move{
+   0%{
+    left:0px;
+    top:0px;
+   }
+   10%{
+    background-color: beige;
+    left:200px;
+    top:0px;
+   }
+   20%{
+    left:400px;
+    top:0px;
+   }
+   30%{
+    left:600px;
+    top:0px;
+   }
+   40%{
+    left:800px;
+    top:0px;
+   }
+   50%{
+    background-color: cornflowerblue;
+    top:200px;
+    left:800px;
+   }
+   60%{
+    top:300px;
+    left:800px;
+   }
+   70%{
+    top:500px;
+    left:800px;
+   }
+   80%{
+    top:800px;
+    left:800px;
+   }
+   90%{
+    top:900px;
+    left:800px;
+   }
+   100%{
+    top:1000px;
+    left:800px;
+   }
+}
