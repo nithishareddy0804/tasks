@@ -1,0 +1,70 @@
+body{
+    background-color:black;
+    text-align: center;
+  
+}
+h1{
+  font-weight: 50;
+  color: white;
+  position: relative;
+  top:300px;
+
+}
+.one{
+    animation: drop 1.2s ease-in-out infinite;
+    animation-delay: 1.2s;
+}
+.two{
+    animation: drop 1.2s ease-in-out infinite ;
+    animation-delay: 1.3s;
+}
+.three{
+    animation: drop 1.2s ease-in-out infinite ;
+    animation-delay: 1.4s;
+}
+.four{
+    animation: drop 1.2s ease-in-out infinite ;
+    animation-delay: 1.5s;
+}
+.five{
+    animation: drop 1.2s ease-in-out infinite ;
+    animation-delay: 1.6s;
+}
+.six{
+    animation: drop 1.2s ease-in-out infinite ;
+    animation-delay: 1.7s;
+}
+.seven{
+    animation: drop 1.2s ease-in-out infinite ;
+    animation-delay: 1.8s;
+}
+.eight{
+    animation: drop 1.2s ease-in-out infinite ;
+    animation-delay: 1.9s; 
+}
+.nine{
+    animation: drop 1.2s ease-in-out infinite ;
+    animation-delay: 2.0s;
+}
+.ten{
+    animation: drop 1.2s ease-in-out infinite ;
+    animation-delay: 2.1s;
+}
+@keyframes drop{
+    10%{
+        opacity:0.5;
+    }
+    20%{
+        opacity:1;
+    }
+    80%{
+        opacity:1;
+    }
+    90%{
+      opacity: 0.5;  
+    }
+    100%{
+        opacity:0;
+
+    }
+}
