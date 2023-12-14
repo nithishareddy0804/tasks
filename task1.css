@@ -1,0 +1,184 @@
+body{
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content:center;
+    background-color: black;
+}
+#drop{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left:-160px;
+    top:2px;
+}
+#A{
+    position: relative;
+    left:-60px;
+}
+#B{
+    position: relative;
+    left:-43px; 
+}
+#C{
+    position: relative;
+    left:-20px;
+}
+#D{
+    position: relative;
+    left:-20px;
+}
+a{
+   text-decoration: none;
+   color: white; 
+}
+.dropdown:hover .dropdown-menu { 
+    display: block; 
+} 
+
+.btn { 
+    color: white;
+} 
+.btn:hover{
+    color: white;
+}
+#menu{
+    columns: 2;
+} 
+div{
+    display: inline;
+}
+i{
+    font-size: 25px;
+}
+#live{
+    position: relative;
+    top:8px;
+    left:-33px;
+}
+#one{
+    position: relative;
+    left:20px;
+    top:5px;
+}
+#two{
+    position: relative;
+    left:90px;
+    top:5px;
+}
+#sec1{
+    position: relative;
+    left:30px;
+}
+.met1{
+    position: relative;
+    top:-17px;
+    left:18px;  
+}
+meter::-webkit-meter-optimum-value{
+    background-color: blue;
+}
+meter{
+    width:230px;
+    height:13px; 
+}
+.met2{
+    position: relative;
+    top:-17px;
+    left:53px;
+}
+.met3{
+    position: relative;
+    top:-17px;
+    left:90px;
+}
+.met4{
+    position:relative ;
+    top:-17px;
+    left:120px;
+}
+.met5{
+    position: relative;
+    top:-17px;
+    left:160px;
+}
+h4{
+    color:white;
+    position: relative;
+    left:30px;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sec3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index:2;
+}
+.cardborder-dark:hover{
+    scale: 1.1;
+    transition-duration: 2s;
+}
+.card-body{
+    display: none;
+    color: white;
+    background-color: black;
+    border-left: hidden;
+    border-top: hidden;
+    border-right: hidden ;
+    border-bottom: hidden;
+}
+.cardborder-dark:hover .card-body{
+    display: block;
+}
+span{
+    color: blue;
+}
+.big{
+    background-color: gray;
+    color: white;
+}
+.change{
+    background-color: gray;
+    border-radius: 50%;
+    padding:0px 5px 5px 5px;
+}
+.hide{
+    display: none;
+    color:white;
+    font-size: 16px;
+}
+i:hover .hide{
+    display:block;
+}
+.sec4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index:1;
+}
+.sec5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+footer{
+    height:300px;
+    z-index:0;
+    position: relative;
+    top:200px;
+    left:400px;
+    width:900px;
+}
+.drop{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left:110px;
+}
+footer a{
+    text-decoration: none;
+    color:blue;
+}
