@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../day23/task3.css">
+</head>
+<body>
+        <h1>Student Registration Form</h1> 
+   <form action="#">
+    <label class="bold" for="name">Name</label><br>
+    <br/>
+    <input type="text" placeholder="First">
+    <input type="text" placeholder="Last"><br>
+    <br/>
+    <label class="bold" for="birth date">Birth Date</label><br>
+    <br/>
+    <input type="date" name="birth date" id="birthdate"><br>
+    <br/>
+    <label class="bold" for="gender">Gender</label><br>
+    <br/>
+    <input type="radio" name="female" id="female">
+    <label for="female">Female</label>
+    <input type="radio" name="male" id="male">
+    <label for="male">Male</label><br>
+    <br/>
+    <label class="bold" for="address">Address</label><br>
+    <br/>
+    <input class="address" type="text" placeholder="Address line 1"><br>
+    <br/>
+    <input class="address" type="text" placeholder="Address line 2"><br>
+    <br/>
+    <input type="text" placeholder="City">
+    <input list="Region" placeholder="Region">
+    <datalist id="Region">
+       <option value="Hyderabad">Hyderabad</option>
+       <option value="Nizamabad">Nizamabad</option>
+       <option value="Karimnagar">Karimnagar</option>
+       <option value="Warangal">Warangal</option>
+       <option value="Medak">Medak</option>
+    </datalist><br>
+    <br/>
+    <input type="text" placeholder="Postal/Zip code">
+    <input list="State" placeholder="State">
+    <datalist id="state">
+        <option value="Telangana">Telangana</option>
+        <option value="Andhrapradesh">Andhrapradesh</option>
+        <option value="Maharastra">Maharastra</option>
+        <option value="Kerala">Kerala</option>
+        <option value="Chennai">Chennai</option>
+     </datalist><br/>
+     <br/>
+     <label class="bold" for="email">Email</label><br>
+     <br/>
+     <input class="address" type="email" name="email" id="email" placeholder="Email"><br>
+     <br/>
+     <label class="bold" for="phone">Phone</label><br>
+     <input class="address" type="number" name="phone" id="phone" placeholder="phone number"><br>
+     <br/>
+     <label class="bold" for="courses">Courses</label><br>
+     <br/>
+     <input class="address" type="text" placeholder="course"><br>
+     <br/>
+    <textarea class="address" placeholder="Comment" name="Comments" id="Comments" cols="10" rows="4"></textarea><br>
+    <br/>
+    <input class="button" type="reset" value="Clear Fields">
+    <input class="button" type="submit" value="Submit Application"><br>
+    <br/>
+    <br/>
+    <br/>
+   </form>
+</body>
+</html>
