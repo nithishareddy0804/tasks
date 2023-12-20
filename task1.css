@@ -1,0 +1,47 @@
+body{
+    background-image: url(../../assets/weather.webp);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    
+}
+input{
+    text-align: center;
+    padding: 15px 100px;
+    border: hidden;
+}
+div i{
+    color: black;
+   font-size: 20px;
+    position:absolute;
+    left:830px;
+    top:42px;
+}
+sup{
+    font-size: xx-small;
+}
+section a i{
+    font-size: 30px;
+    color: white;
+    position: none;
+}
+.A{
+   font-size: 30px;
+}
+.one{
+    font-size: 50px;
+    position: relative;
+    top:9px;
+}
+.two{
+    font-size: 30px;
+}
+div a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#sec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
